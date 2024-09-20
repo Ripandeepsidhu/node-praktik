@@ -1,25 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+console.log('This is my first program')
+console.log('Start of the program');
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+setTimeout(() => {
+  console.log('This message appears after 3 seconds');
+}, 3000
 
-export default App;
+);
+console.log('End of the program')
